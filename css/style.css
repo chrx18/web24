@@ -134,6 +134,7 @@ nav li a {
 
 nav li:hover {
     background-color:  rgb(155, 41, 41);
+    border-radius: 50px;
 }
 
 .text-right{
@@ -360,16 +361,24 @@ video {
     margin: 0 auto;
 }
 .formlogin{
-    float: none;
+float: left;
     width: 50%;
+    
 }
 .cb{
     clear: both;
 }
 .formhtml5{
-    float: right;
+    margin: 0 auto;
+text-align: center;
     width: 50%;
 }
+.formregister {
+    text-align: center;
+    float: right;
+    width:50%;
+}
+
 
 
 
